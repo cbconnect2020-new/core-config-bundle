@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "cbconnect2020-new"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAwp0ZATDVBP1OR+AoRypEeFbbM9vjqqZH2vMzvWqMXDK1mcchvsn7kSwXKy/JLbpUONIamICwY2dvPDPFDOwyaYw==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "philcgithub"
+              password: "{AQAAABAAAAAwp0ZATDVBP1OR+AoRypEeFbbM9vjqqZH2vMzvWqMXDK1mcchvsn7kSwXKy/JLbpUONIamICwY2dvPDPFDOwyaYw==}"
